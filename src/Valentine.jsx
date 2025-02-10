@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import "./valentine.scss";
-import Background from "./preview.jpg";
 
 // Import images directly for better path resolution
 import img1 from './PIC/1.JPG';
@@ -83,7 +82,6 @@ export default function ValentineApp() {
 
   const initializeImages = () => {
     const imageSources = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
-    const imageSize = 100;
     let imageShapes = [];
 
     for (let i = 0; i < imageSources.length; i++) {
